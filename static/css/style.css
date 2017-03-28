@@ -4,14 +4,14 @@ body {
     margin: 0px;
     background-color: white;
     color: black;
-    font-weight: 300; 
+    font-weight: 300;
     font-size: 13pt;
 }
 
 
 /* text styling */
 strong {
-  font-weight: 600;         
+  font-weight: 600;
 }
 
 .warm {
@@ -24,8 +24,8 @@ strong {
 }
 
 
-/* these are all the same for now, but easy to modify individually */
-#container-ad, #container-error, #container-exp, #container-consent, #container-instructions, #container-questionnaire {
+/* these are all the same for now, but easy to modify individually (#container-consent,) */
+#container-ad, #container-error, #container-exp, #container-instructions, #container-questionnaire {
     position: absolute;
     top: 0px; /* Header Height */
     bottom: 0px; /* Footer Height */
@@ -79,6 +79,8 @@ strong {
 .question {
   margin-bottom: 30px;
 }
+
+
 
 /* errors */
 #error img {
